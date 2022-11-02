@@ -1,2 +1,15 @@
 https://www.edlitera.com/blog/posts/text-summarization-nlp-how-to
 
+
+
+
+
+
+
+# TODO:
+
+-   Make the recording return a wave object without having to
+    save everything to disk. Perhaps the only thing that should
+    be saved to disk are the text files from the transcription.
+    Or, better, directly the summary.
+
