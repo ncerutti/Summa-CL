@@ -9,7 +9,9 @@ Author: ncerutti
 """
 import time
 from datetime import datetime
-
+import tkinter as tk
+import threading
+import os
 
 from gui import GUI
 from init import hwcheck
@@ -23,12 +25,13 @@ def main() -> None:
     # Start the GUI
 
     gui = GUI()
+
     #                    Record audio
 
-    stream_params = StreamParams()
-    recorder = Recorder(stream_params)
-    recording_path = f"{datetime.now().strftime('%d%m_%H%M')}.wav"
-    recorder.record(recording_path)
+    # stream_params = StreamParams()
+    # recorder = Recorder(stream_params)
+    # recording_path = f"{datetime.now().strftime('%d%m_%H%M')}.wav"
+    # recorder.record(recording_path)
 
     #                   Separate audio
     #       into different tracks (one for each speaker)

@@ -39,6 +39,9 @@ class Recorder:
         self._stream = self._pyaudio.open(**self.stream_params.to_dict())
         self._create_wav_file(save_path)
 
+        while recording:
+            self._write_wav_file_from_stream(duration)
+
         if duration == 0:
 
             print('Press "q" to stop recording')
