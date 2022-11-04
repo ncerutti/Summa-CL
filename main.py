@@ -4,6 +4,8 @@ Summa Cum Laude - Main module
 
 Author: ncerutti
 
+# https://www.youtube.com/watch?v=u_xNvC9PpHA
+
 """
 import time
 from datetime import datetime
