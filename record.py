@@ -29,7 +29,7 @@ class Recorder:
         self._wav_file = None
 
     def record(self, save_path: str, duration: int = 0) -> None:
-        """Records audio for a given duration and saves it
+        """Records audio until stopped and saves it
         to a wav file.
 
         duration: number of seconds to record
