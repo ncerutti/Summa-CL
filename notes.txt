@@ -7,9 +7,11 @@ https://www.youtube.com/watch?v=n2FKsPt83_A <- audio python guide
 
 Others:
 
+# Fine tuning Pegasos!
+https://youtu.be/fLqiPks4neU
+
 # Whisper_mic
 https://github.com/mallorbc/whisper_mic/blob/main/mic.py
-
 
 
 
