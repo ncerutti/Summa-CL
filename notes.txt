@@ -9,6 +9,7 @@ Others:
 
 # Fine tuning Pegasos!
 https://youtu.be/fLqiPks4neU
+https://youtu.be/HDSNjrxSwqw
 
 # Whisper_mic
 https://github.com/mallorbc/whisper_mic/blob/main/mic.py
