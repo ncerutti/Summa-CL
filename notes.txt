@@ -7,6 +7,9 @@ https://www.youtube.com/watch?v=n2FKsPt83_A <- audio python guide
 
 Others:
 
+# Speech separation!
+https://github.com/etzinis/sudo_rm_rf
+
 # Fine tuning Pegasos!
 https://youtu.be/fLqiPks4neU
 https://youtu.be/HDSNjrxSwqw
