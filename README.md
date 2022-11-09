@@ -2,10 +2,10 @@
 
 by Nicola Cerutti
 
-- [ ] Record
+- [x] Record
 - [ ] Speech separation
 - [ ] Voice recognition
-- [ ] Speech to text
+- [x] Speech to text
 - [ ] Summary document
 - [ ] Stats
 - [ ] Viz
