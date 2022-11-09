@@ -9,6 +9,7 @@ Others:
 
 # Speech separation!
 https://github.com/etzinis/sudo_rm_rf
+https://speechbrain.github.io
 
 # Fine tuning Pegasos!
 https://youtu.be/fLqiPks4neU
