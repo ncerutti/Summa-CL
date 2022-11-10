@@ -31,3 +31,4 @@ https://github.com/mallorbc/whisper_mic/blob/main/mic.py
     be saved to disk are the text files from the transcription.
     Or, better, directly the summary.
 
+-   Change GUI to gradio?
