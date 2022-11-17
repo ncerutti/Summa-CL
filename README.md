@@ -1,6 +1,6 @@
 # Summa-CL
 
-by Nicola Cerutti
+by Nico Cerutti
 
 - [x] Record
 - [ ] Speech separation
