@@ -131,3 +131,6 @@ dmypy.json
 # temp directory
 temp/
 tmp/
+
+# Trunk stuff
+.trunk/

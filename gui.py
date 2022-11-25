@@ -1,8 +1,9 @@
-import tkinter as tk
 import threading
-from datetime import datetime
 import time
+import tkinter as tk
 import wave
+from datetime import datetime
+
 import pyaudio
 
 
@@ -33,7 +34,6 @@ class GUI:
             self.recording = True
             self.rec_button.config(fg="red", text="Stop")
             threading.Thread(target=self.record).start()
-        pass
 
     def separate_click_handler(self) -> None:
 

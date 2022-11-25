@@ -5,7 +5,9 @@ Summa Cum Laude - Main module
 Author: ncerutti
 
 """
+
 from datetime import datetime
+
 from record import Recorder, StreamParams
 from separate import separate_track
 from transcribe import transcribe

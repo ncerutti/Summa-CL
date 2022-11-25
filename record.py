@@ -1,6 +1,7 @@
-import pyaudio
 import wave
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
+
+import pyaudio
 
 
 @dataclass
