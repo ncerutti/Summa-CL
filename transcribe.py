@@ -12,6 +12,7 @@ def transcribe(track_path: str) -> str:
     Returns:
         str: text file with the transcription. It will also write the file to the /tmp folder.
     """
+    print("Note that so far, and with this model, it works decently only with good quality audio.")
     print("Transcribing {track_path}...")
     model = whisper.load_model("small")
     result = model.transcribe(track_path)
