@@ -5,11 +5,12 @@ Summa Cum Laude - Main module
 Author: ncerutti
 
 """
-import time
+# import time
 from datetime import datetime
-import tkinter as tk
-import threading
-import os
+
+# import tkinter as tk
+# import threading
+# import os
 
 
 from record import Recorder, StreamParams
