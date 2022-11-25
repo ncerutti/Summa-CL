@@ -1,10 +1,4 @@
-"""
-
-Summa Cum Laude - Main module
-
-Author: ncerutti
-
-"""
+# type: ignore
 
 from datetime import datetime
 
@@ -14,10 +8,7 @@ from transcribe import transcribe
 
 
 def main() -> None:
-
-    # Start the GUI
-
-    # gui = GUI()
+    """Main function. At the moment calling sequentially the other functions."""
 
     #                    Record audio
 

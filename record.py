@@ -1,3 +1,5 @@
+# type: ignore
+
 import wave
 from dataclasses import asdict, dataclass
 

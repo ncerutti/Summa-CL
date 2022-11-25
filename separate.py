@@ -1,3 +1,6 @@
+# type: ignore
+
+
 def separate_track(path: str) -> list[str]:
     """Function that separates an audio track with 1 or more speakers to 1 track per speaker.
 

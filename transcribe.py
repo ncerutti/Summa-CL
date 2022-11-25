@@ -1,3 +1,5 @@
+# type: ignore
+
 import whisper
 
 # Right now this uses the default model, eventually we should be able to choose with different arguments.
