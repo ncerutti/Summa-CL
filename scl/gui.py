@@ -1,13 +1,9 @@
 import tkinter as tk
 import threading
-
-# from record import Recorder, StreamParams
 from datetime import datetime
-import pyaudio
-
-# import os
 import time
 import wave
+import pyaudio
 
 
 class GUI:

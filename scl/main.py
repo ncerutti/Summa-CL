@@ -5,14 +5,7 @@ Summa Cum Laude - Main module
 Author: ncerutti
 
 """
-# import time
 from datetime import datetime
-
-# import tkinter as tk
-# import threading
-# import os
-
-
 from record import Recorder, StreamParams
 from separate import separate_track
 from transcribe import transcribe
