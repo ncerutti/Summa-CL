@@ -14,6 +14,10 @@ def separate_track(path: str) -> int:
         int: number of separate tracks.
     """
     print("Separating audio in {path}...")
+    # loading the model. Number of speakers is set to 2, but it can be changed from hyperparams.yaml.
+    # ideally, we should identify the number of speakers in the audio file and set it here.
+    # alternatively, we could try using the model with n speakers (> real speakers) and see if it works.
+    # finally, we could let the user choose the number of speakers.
     model = separator.from_hparams(
         source="speechbrain/sepformer-whamr",
         savedir="pretrained_models/sepformer-whamr",
