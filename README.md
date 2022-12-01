@@ -3,7 +3,7 @@
 by Nico Cerutti
 
 - [x] Record
-- [ ] Speech separation
+- [X] Speech separation
 - [ ] Voice recognition
 - [x] Speech to text
 - [ ] Summary document
