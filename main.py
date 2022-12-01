@@ -29,7 +29,7 @@ def main() -> None:
     n_transcriptions = 0
     for track in tracks:
         n_transcriptions += 1
-        transcriptions += transcribe(track)
+        transcriptions += transcribe("./tmp/separated/" + str(track) + ".wav")
 
     print(f"Transcribed {n_transcriptions} tracks.")
 
