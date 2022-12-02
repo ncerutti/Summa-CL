@@ -3,9 +3,10 @@
 by Nico Cerutti
 
 - [x] Record
-- [X] Speech separation
-- [ ] Voice recognition
+- [x] Diarization
+- [x] Speech separation
 - [x] Speech to text
+- [ ] Voice recognition
 - [ ] Summary document
 - [ ] Stats
 - [ ] Viz
