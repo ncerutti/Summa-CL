@@ -137,3 +137,6 @@ tmp/
 
 # Pretrained models
 pretrained_models/
+
+# Experimentations notebook
+exp.ipynb

@@ -1,8 +1,10 @@
 # type: ignore
 
 from datetime import datetime
+import torch
 
 from clean import clean, clean_process
+from diarize import diarize
 from enhance import enhance
 from record import Recorder, StreamParams
 from separate import separate_track
@@ -11,6 +13,9 @@ from transcribe import transcribe
 
 def main() -> None:
     """Main function. At the moment calling sequentially the other functions."""
+
+    # empty GPU memory
+    torch.cuda.empty_cache()
 
     empty_tmp_folder = input("Do you want to clean the tmp folder? (y/n) ")
     if empty_tmp_folder == "y":
@@ -34,6 +39,8 @@ def main() -> None:
         enhance(recording_path)
 
     #                   Diarization
+
+    diarize(recording_path)
 
     #                   Separate audio tracks
 
