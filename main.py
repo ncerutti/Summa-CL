@@ -32,7 +32,7 @@ def main() -> None:
         recorder.record(recording_path)
     if record == "n":
         # search in tmp/recorded for the latest file
-        recording_path = "./tmp/test_file/test.wav"
+        recording_path = "./tmp/test_file/meeting.wav"
 
     print(record)
     if record == "y":

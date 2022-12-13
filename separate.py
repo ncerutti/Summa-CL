@@ -19,8 +19,8 @@ def separate_track(path: str) -> int:
     # alternatively, we could try using the model with n speakers (> real speakers) and see if it works.
     # finally, we could let the user choose the number of speakers.
     model = separator.from_hparams(
-        source="speechbrain/sepformer-whamr",
-        savedir="pretrained_models/sepformer-whamr",
+        source="speechbrain/sepformer-libri3mix",
+        savedir="pretrained_models/sepformer-libri3mix",
     )
     # open audio file from path and convert to 8kHz single channel
 
