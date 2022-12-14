@@ -39,18 +39,25 @@ def main() -> None:
         enhance(recording_path)
 
     #                   Diarization
-
-    diarize(recording_path)
+    should_i_diarize = input("Do you want to diarize the audio? (y/n) ")
+    if should_i_diarize == "y":
+        diarize(recording_path)
 
     #                   Separate audio tracks
 
-    num_tracks = separate_track(recording_path)
+    should_i_separate = input("Do you want to separate the audio? (y/n) ")
+    if should_i_separate == "y":
+        num_tracks = separate_track(recording_path)
+    else:
+        num_tracks = 3
 
     #              Perform speech recognition
     #   on each track and assign a speaker to each track
 
-    transcriptions = transcribe(num_tracks)
-    print(f"Transcribed {len(transcriptions)} tracks.")
+    should_i_transcribe = input("Do you want to transcribe the audio? (y/n) ")
+    if should_i_transcribe == "y":
+        transcriptions = transcribe(num_tracks)
+        print(f"Transcribed {len(transcriptions)} tracks.")
 
     keep_only_transcriptions = input("Do you want to remove the original audio? (y/n) ")
     if keep_only_transcriptions == "y":
