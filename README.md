@@ -8,5 +8,5 @@ by Nico Cerutti
 - [x] Speech to text
 - [ ] Voice recognition
 - [ ] Summary document
-- [ ] Stats
+- [X] Stats
 - [ ] Viz
