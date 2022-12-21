@@ -1,4 +1,5 @@
 # Summa-CL
+Command-line version of Discussion Digest (DiDi), software for the recording, diarization, transcription and summarization of meetings.
 
 by Nico Cerutti
 
